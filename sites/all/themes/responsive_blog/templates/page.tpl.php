@@ -114,8 +114,8 @@
 		<td class="thright">
 		<div class="nnav">
 		<ul class='upper_nav'>
-		<li><a href="#">ABOUT US</a></li>
-		<li style="border-right:1px solid #8F8F8F;"><a href="#">CONTACT US</a></li>
+		<li><a href="?q=node/1">ABOUT US</a></li>
+		<li style="border-right:1px solid #8F8F8F;"><a href="?q=node/2">CONTACT US</a></li>
 		</ul>
 		</div>
     <nav id="navigation" role="navigation">
@@ -191,7 +191,7 @@
         <?php endif; ?>
         <?php endif; ?>
 
-        <?php if (theme_get_setting('breadcrumbs')): ?><?php if ($breadcrumb): ?><div id="breadcrumbs"><?php print $breadcrumb; ?></div><?php endif;?><?php endif; ?>
+        <?php if (theme_get_setting('breadcrumbs')): ?><?php if ($breadcrumb): ?><div id="breadcrumbs"><?php //print $breadcrumb; ?></div><?php endif;?><?php endif; ?>
         <?php print $messages; ?>
         <?php if ($page['content_top']): ?><div id="content_top"><?php print render($page['content_top']); ?></div><?php endif; ?>
 				<?php if (!$is_front):?>

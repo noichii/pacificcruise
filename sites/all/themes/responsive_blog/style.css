@@ -88,7 +88,7 @@ body {
 }
 #content {
   margin: 0 33% 0 3%;
-  width: 64%;
+  width: 100%;
 }
 #sidebar {
   float: right;
@@ -671,6 +671,8 @@ background-color: #f08221;
   padding: 0.5em 5% 2em;
   position: relative;
   width: auto;
+  height: 600px;
+  overflow: auto;
 }
 
 .node h2.title, h1.page-title, .node h2.title a, h1.page-title a {
