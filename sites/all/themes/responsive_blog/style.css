@@ -785,6 +785,15 @@ background-color: #f08221;
     padding: 2em 3% 0;
 }
 
+/*NOI*/
+#block-poll-recent {
+ height: 200px;
+}
+#block-block-2 {
+ height: 200px;
+}
+/*NOI*/
+
 #preface-block-wrap.in1 .preface-block {
   margin-bottom: 2.5em;
 }
